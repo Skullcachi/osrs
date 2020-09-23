@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Application from "./components/Application";
+/* import { ToastContainer } from "react-toastify"; */
+/* import 'react-toastify/dist/ReactToastify.css' */
+/* import { AddCircleOutlineRounded } from '@material-ui/icons';
+import { Button, TextField, Container } from '@material-ui/core'; */
 
+import UserProvider from "./providers/UserProvider";
 function App() {
   return (
-    <div className="App">
-      <login />
-    </div>
+      <UserProvider>
+        <Application />
+      </UserProvider>
   );
 }
 
