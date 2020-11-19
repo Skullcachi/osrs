@@ -11,10 +11,10 @@ function Application() {
         <Hiscores />
       :
         <Router>
-          <Login path="login" />
-          <Registro path="registro" />
-          <Hiscores path="perfil" />
-          <History path="history" />
+          <Login path="/login" />
+          <Registro path="/registro" />
+          <Hiscores path="/perfil" />
+          <History path="/history" />
           <Login path="/" />
         </Router>
 
