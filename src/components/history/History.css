@@ -1,0 +1,49 @@
+.root {
+    display: flex;
+    overflow-x: hidden;
+}
+.image {
+    background-image: url('../../images/osrs.jpg');
+    background-repeat: no-repeat !important;
+    background-color: gray;
+    background-size: cover !important;
+    background-position: center;
+    height: 100vh;
+    padding-top:50px !important;
+}
+
+.table {
+    min-width: 650;
+}
+
+.btn-danger{
+    background-color: #FF4B55 !important;
+    color: white !important;
+}
+
+.searchResult{
+    background: url('../../images/scroll.gif') repeat-y top center;
+    min-height: 150px;
+}
+
+.searchResultTop{
+    background: url('../../images/scroll_top.gif') no-repeat center top;
+    content: '';
+    height: 50px;
+    margin-bottom: -15px;
+    /* left: 0;
+    position: absolute;
+    top:315px; 
+    width: 100%; */
+}
+
+.searchResultBottom{
+    background: url('../../images/scroll_bottom.gif') no-repeat center bottom;
+    content: '';
+    height: 50px;
+    margin-top: -15px;
+    /* left: 0;
+    position: absolute;
+    top:542px; 
+    width: 100%; */
+}

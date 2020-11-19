@@ -1,0 +1,66 @@
+.root {
+    display: flex;
+    overflow-x: hidden;
+}
+.image {
+    background-image: url('../../images/osrs.jpg');
+    background-repeat: no-repeat !important;
+    background-color: gray;
+    background-size: cover !important;
+    background-position: center;
+    height: 100vh;
+}
+.button {
+    background: url('../../images/button.gif') no-repeat center !important;
+    color: white !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+    height: 56px !important;
+    padding: 11px !important;
+    text-align: center !important;
+    vertical-align: center !important;
+    width: 130px !important;
+    cursor: pointer !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.bg {
+    height: 150px;
+    text-align: center;
+}
+.textCenter {
+    text-align: center;
+}
+.searchBar {
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+.searchResult{
+    background: url('../../images/scroll.gif') repeat-y top center;
+    min-height: 150px;
+}
+
+.searchResultTop{
+    background: url('../../images/scroll_top.gif') no-repeat center top;
+    content: '';
+    height: 50px;
+    margin-bottom: -15px;
+    /* left: 0;
+    position: absolute;
+    top:315px; 
+    width: 100%; */
+}
+
+.searchResultBottom{
+    background: url('../../images/scroll_bottom.gif') no-repeat center bottom;
+    content: '';
+    height: 50px;
+    margin-top: -15px;
+    /* left: 0;
+    position: absolute;
+    top:542px; 
+    width: 100%; */
+}

@@ -73,7 +73,8 @@ export default function Login() {
         event.preventDefault();
         auth.signInWithEmailAndPassword(email, password)
         .then( res => {
-            navigate('perfil', { replace: true });
+          localStorage.setItem("email", res.user.email);
+          navigate('perfil', { replace: true });
         }).catch(error => {
           setError("Error signing in with password and email!");
           console.error("Error signing in with password and email", error);
